@@ -1,0 +1,25 @@
+{
+  "name": "clientcare-server",
+  "version": "1.0.0",
+  "description": "ClientCare clinical record management backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "clientcare",
+    "clinical-records",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.9.3"
+  }
+}
